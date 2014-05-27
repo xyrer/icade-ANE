@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4365F8A6179F838E00662AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8A5179F838E00662AFE /* Foundation.framework */; };
+		4365F8A8179F838E00662AFE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8A7179F838E00662AFE /* CoreFoundation.framework */; };
+		4365F8AA179F838E00662AFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8A9179F838E00662AFE /* UIKit.framework */; };
+		4365F8AC179F838E00662AFE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8AB179F838E00662AFE /* MobileCoreServices.framework */; };
+		4365F8AE179F838E00662AFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8AD179F838E00662AFE /* CoreGraphics.framework */; };
+		4365F8B0179F838E00662AFE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8AF179F838E00662AFE /* SystemConfiguration.framework */; };
+		4365F8B2179F838E00662AFE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8B1179F838E00662AFE /* AudioToolbox.framework */; };
+		4365F8B4179F838E00662AFE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8B3179F838E00662AFE /* CFNetwork.framework */; };
+		4365F8B6179F838E00662AFE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8B5179F838E00662AFE /* QuartzCore.framework */; };
+		4365F8B8179F838E00662AFE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8B7179F838E00662AFE /* OpenGLES.framework */; };
+		4365F8BA179F838E00662AFE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8B9179F838E00662AFE /* CoreLocation.framework */; };
+		4365F8BC179F838E00662AFE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8BB179F838E00662AFE /* CoreMedia.framework */; };
+		4365F8BE179F838E00662AFE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8BD179F838E00662AFE /* CoreVideo.framework */; };
+		4365F8C0179F838E00662AFE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8BF179F838E00662AFE /* AVFoundation.framework */; };
+		4365F8C2179F838E00662AFE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4365F8C1179F838E00662AFE /* Security.framework */; };
+		4365F8CD179F838E00662AFE /* iCadeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4365F8CC179F838E00662AFE /* iCadeController.m */; };
+		4365F8DA179F844300662AFE /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4365F8D9179F844300662AFE /* FlashRuntimeExtensions.h */; };
+		43F5C9C017A06DDD00069480 /* iCadeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F5C9BD17A06DDD00069480 /* iCadeReaderView.h */; };
+		43F5C9C117A06DDD00069480 /* iCadeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F5C9BE17A06DDD00069480 /* iCadeReaderView.m */; };
+		43F5C9C217A06DDD00069480 /* iCadeState.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F5C9BF17A06DDD00069480 /* iCadeState.h */; };
+		43F5C9C917A0BCF400069480 /* MyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F5C9C717A0BCF400069480 /* MyDelegate.h */; };
+		43F5C9CA17A0BCF400069480 /* MyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F5C9C817A0BCF400069480 /* MyDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4365F8C6179F838E00662AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4365F89A179F838E00662AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4365F8A1179F838E00662AFE;
+			remoteInfo = iCadeController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4365F8A2179F838E00662AFE /* libiCadeController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCadeController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4365F8A5179F838E00662AFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4365F8A7179F838E00662AFE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4365F8A9179F838E00662AFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4365F8AB179F838E00662AFE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4365F8AD179F838E00662AFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4365F8AF179F838E00662AFE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4365F8B1179F838E00662AFE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4365F8B3179F838E00662AFE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4365F8B5179F838E00662AFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4365F8B7179F838E00662AFE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4365F8B9179F838E00662AFE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4365F8BB179F838E00662AFE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4365F8BD179F838E00662AFE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4365F8BF179F838E00662AFE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4365F8C1179F838E00662AFE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4365F8C5179F838E00662AFE /* iCadeController.ane */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = iCadeController.ane; sourceTree = BUILT_PRODUCTS_DIR; };
+		4365F8CA179F838E00662AFE /* iCadeController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCadeController-Prefix.pch"; sourceTree = "<group>"; };
+		4365F8CB179F838E00662AFE /* iCadeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCadeController.h; sourceTree = "<group>"; };
+		4365F8CC179F838E00662AFE /* iCadeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCadeController.m; sourceTree = "<group>"; };
+		4365F8CE179F838E00662AFE /* extension.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = extension.xml; sourceTree = "<group>"; };
+		4365F8CF179F838E00662AFE /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
+		4365F8D0179F838E00662AFE /* generateANE.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = generateANE.sh; sourceTree = "<group>"; };
+		4365F8D9179F844300662AFE /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = "../../../../../../Applications/Adobe Flash Builder 4.7/sdks/4.6_air3_8/include/FlashRuntimeExtensions.h"; sourceTree = "<group>"; };
+		43F5C9BD17A06DDD00069480 /* iCadeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeReaderView.h; sourceTree = "<group>"; };
+		43F5C9BE17A06DDD00069480 /* iCadeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCadeReaderView.m; sourceTree = "<group>"; };
+		43F5C9BF17A06DDD00069480 /* iCadeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeState.h; sourceTree = "<group>"; };
+		43F5C9C717A0BCF400069480 /* MyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDelegate.h; sourceTree = "<group>"; };
+		43F5C9C817A0BCF400069480 /* MyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4365F89F179F838E00662AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4365F8A6179F838E00662AFE /* Foundation.framework in Frameworks */,
+				4365F8A8179F838E00662AFE /* CoreFoundation.framework in Frameworks */,
+				4365F8AA179F838E00662AFE /* UIKit.framework in Frameworks */,
+				4365F8AC179F838E00662AFE /* MobileCoreServices.framework in Frameworks */,
+				4365F8AE179F838E00662AFE /* CoreGraphics.framework in Frameworks */,
+				4365F8B0179F838E00662AFE /* SystemConfiguration.framework in Frameworks */,
+				4365F8B2179F838E00662AFE /* AudioToolbox.framework in Frameworks */,
+				4365F8B4179F838E00662AFE /* CFNetwork.framework in Frameworks */,
+				4365F8B6179F838E00662AFE /* QuartzCore.framework in Frameworks */,
+				4365F8B8179F838E00662AFE /* OpenGLES.framework in Frameworks */,
+				4365F8BA179F838E00662AFE /* CoreLocation.framework in Frameworks */,
+				4365F8BC179F838E00662AFE /* CoreMedia.framework in Frameworks */,
+				4365F8BE179F838E00662AFE /* CoreVideo.framework in Frameworks */,
+				4365F8C0179F838E00662AFE /* AVFoundation.framework in Frameworks */,
+				4365F8C2179F838E00662AFE /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4365F899179F838E00662AFE = {
+			isa = PBXGroup;
+			children = (
+				4365F8C8179F838E00662AFE /* iCadeController */,
+				4365F8A4179F838E00662AFE /* Frameworks */,
+				4365F8A3179F838E00662AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4365F8A3179F838E00662AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4365F8A2179F838E00662AFE /* libiCadeController.a */,
+				4365F8C5179F838E00662AFE /* iCadeController.ane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4365F8A4179F838E00662AFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4365F8A5179F838E00662AFE /* Foundation.framework */,
+				4365F8A7179F838E00662AFE /* CoreFoundation.framework */,
+				4365F8A9179F838E00662AFE /* UIKit.framework */,
+				4365F8AB179F838E00662AFE /* MobileCoreServices.framework */,
+				4365F8AD179F838E00662AFE /* CoreGraphics.framework */,
+				4365F8AF179F838E00662AFE /* SystemConfiguration.framework */,
+				4365F8B1179F838E00662AFE /* AudioToolbox.framework */,
+				4365F8B3179F838E00662AFE /* CFNetwork.framework */,
+				4365F8B5179F838E00662AFE /* QuartzCore.framework */,
+				4365F8B7179F838E00662AFE /* OpenGLES.framework */,
+				4365F8B9179F838E00662AFE /* CoreLocation.framework */,
+				4365F8BB179F838E00662AFE /* CoreMedia.framework */,
+				4365F8BD179F838E00662AFE /* CoreVideo.framework */,
+				4365F8BF179F838E00662AFE /* AVFoundation.framework */,
+				4365F8C1179F838E00662AFE /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4365F8C8179F838E00662AFE /* iCadeController */ = {
+			isa = PBXGroup;
+			children = (
+				43F5C9BC17A06DDD00069480 /* iCade */,
+				4365F8D9179F844300662AFE /* FlashRuntimeExtensions.h */,
+				4365F8CB179F838E00662AFE /* iCadeController.h */,
+				4365F8CC179F838E00662AFE /* iCadeController.m */,
+				4365F8C9179F838E00662AFE /* Supporting Files */,
+				43F5C9C717A0BCF400069480 /* MyDelegate.h */,
+				43F5C9C817A0BCF400069480 /* MyDelegate.m */,
+			);
+			path = iCadeController;
+			sourceTree = "<group>";
+		};
+		4365F8C9179F838E00662AFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4365F8CA179F838E00662AFE /* iCadeController-Prefix.pch */,
+				4365F8CE179F838E00662AFE /* extension.xml */,
+				4365F8CF179F838E00662AFE /* platformoptions.xml */,
+				4365F8D0179F838E00662AFE /* generateANE.sh */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43F5C9BC17A06DDD00069480 /* iCade */ = {
+			isa = PBXGroup;
+			children = (
+				43F5C9BD17A06DDD00069480 /* iCadeReaderView.h */,
+				43F5C9BE17A06DDD00069480 /* iCadeReaderView.m */,
+				43F5C9BF17A06DDD00069480 /* iCadeState.h */,
+			);
+			path = iCade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4365F8A0179F838E00662AFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4365F8DA179F844300662AFE /* FlashRuntimeExtensions.h in Headers */,
+				43F5C9C017A06DDD00069480 /* iCadeReaderView.h in Headers */,
+				43F5C9C217A06DDD00069480 /* iCadeState.h in Headers */,
+				43F5C9C917A0BCF400069480 /* MyDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4365F8A1179F838E00662AFE /* iCadeController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4365F8D3179F838E00662AFE /* Build configuration list for PBXNativeTarget "iCadeController" */;
+			buildPhases = (
+				4365F89E179F838E00662AFE /* Sources */,
+				4365F89F179F838E00662AFE /* Frameworks */,
+				4365F8A0179F838E00662AFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCadeController;
+			productName = iCadeController;
+			productReference = 4365F8A2179F838E00662AFE /* libiCadeController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4365F8C4179F838E00662AFE /* iCadeController.ane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4365F8D6179F838E00662AFE /* Build configuration list for PBXNativeTarget "iCadeController.ane" */;
+			buildPhases = (
+				4365F8C3179F838E00662AFE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4365F8C7179F838E00662AFE /* PBXTargetDependency */,
+			);
+			name = iCadeController.ane;
+			productName = iCadeController.ane;
+			productReference = 4365F8C5179F838E00662AFE /* iCadeController.ane */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4365F89A179F838E00662AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 4365F89D179F838E00662AFE /* Build configuration list for PBXProject "iCadeController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4365F899179F838E00662AFE;
+			productRefGroup = 4365F8A3179F838E00662AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4365F8A1179F838E00662AFE /* iCadeController */,
+				4365F8C4179F838E00662AFE /* iCadeController.ane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4365F8C3179F838E00662AFE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tchmod 755 \"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t\t\t\t\"$PROJECT_DIR/$PROJECT_NAME/generateANE.sh\"\n\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4365F89E179F838E00662AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4365F8CD179F838E00662AFE /* iCadeController.m in Sources */,
+				43F5C9C117A06DDD00069480 /* iCadeReaderView.m in Sources */,
+				43F5C9CA17A0BCF400069480 /* MyDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4365F8C7179F838E00662AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4365F8A1179F838E00662AFE /* iCadeController */;
+			targetProxy = 4365F8C6179F838E00662AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4365F8D1179F838E00662AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Applications/Adobe Flash Builder 4.7/sdks/4.6_air3_8/include/";
+			};
+			name = Debug;
+		};
+		4365F8D2179F838E00662AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Applications/Adobe Flash Builder 4.7/sdks/4.6_air3_8/include/";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4365F8D4179F838E00662AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/iCadeController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCadeController/iCadeController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4365F8D5179F838E00662AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/iCadeController.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCadeController/iCadeController-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4365F8D7179F838E00662AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Applications/Adobe Flash Builder 4.7/sdks/4.6_air3_8";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = "/Users/xyrer/Documents/Adobe Flash Builder 4.7/iCadeController/bin/iCadeController.swc";
+				PRODUCT_NAME = iCadeController;
+			};
+			name = Debug;
+		};
+		4365F8D8179F838E00662AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AIR_SDK_PATH = "/Applications/Adobe Flash Builder 4.7/sdks/4.6_air3_8";
+				EXECUTABLE_EXTENSION = ane;
+				EXECUTABLE_PREFIX = "";
+				NATIVEEXTENSION_SWC = "/Users/xyrer/Documents/Adobe Flash Builder 4.7/iCadeController/bin/iCadeController.swc";
+				PRODUCT_NAME = iCadeController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4365F89D179F838E00662AFE /* Build configuration list for PBXProject "iCadeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4365F8D1179F838E00662AFE /* Debug */,
+				4365F8D2179F838E00662AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4365F8D3179F838E00662AFE /* Build configuration list for PBXNativeTarget "iCadeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4365F8D4179F838E00662AFE /* Debug */,
+				4365F8D5179F838E00662AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4365F8D6179F838E00662AFE /* Build configuration list for PBXNativeTarget "iCadeController.ane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4365F8D7179F838E00662AFE /* Debug */,
+				4365F8D8179F838E00662AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4365F89A179F838E00662AFE /* Project object */;
+}
